@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Collections</title>
+    <!-- Relative paths to your local Bootstrap files -->
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <script src="dist/js/bootstrap.bundle.js"></script>
+    <style>
+        img:hover{
+            transform: scale(1.2);
+            transition: 3s;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Navigation Bar -->
+    <header class="container-fluid p-0">
+        <nav class="navbar navbar-expand-md navbar-dark bg-success px-3">
+            <a href="#" class="navbar-brand"><b>Shopping Collections</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="shopping.html" class="nav-link text-capitalize">shopping</a>
+                    <a href="checkout.html" class="nav-link">checkout page</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container my-5">
+        
+        <!-- Section 2: Watches Heading -->
+        <h3 class="mb-4 text-dark border-bottom pb-2">Luxury Watches</h3>
+        
+        <!-- Section 2 Grid: Watches -->
+        <section class="row g-4">
+            <!-- Rolex Card -->
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="card h-100 shadow">
+                    <div class="card-header">
+                        <h5 class="m-0">ROLEX</h5>
+                    </div>
+                    <div class="card-body d-flex align-items-center justify-content-center bg-light">
+                        <img src="images/Watch.jfif" alt="Rolex Watch" class="img-fluid" style="height: 200px; object-fit: contain;">
+                    </div>
+                    <div class="card-footer bg-white border-0">
+                        <p class="small text-muted text-start">Lorem ipsum dolor sit amet luxury timepiece crafted for performance and high premium styling dynamics.</p>
+                        <b class="text-warning fs-5">Ksh 50,300</b><br>
+                        <span class="badge bg-danger mt-1">10% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AP Card -->
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="card h-100 shadow">
+                    <div class="card-header">
+                        <h5 class="m-0">AP</h5>
+                    </div>
+                    <div class="card-body d-flex align-items-center justify-content-center bg-light">
+                        <img src="images/wacth2.jfif" alt="Audemars Piguet Watch" class="img-fluid" style="height: 200px; object-fit: contain;">
+                    </div>
+                    <div class="card-footer bg-white border-0">
+                        <p class="small text-muted text-start">Lorem ipsum dolor sit amet luxury timepiece crafted for performance and high premium styling dynamics.</p>
+                        <b class="text-warning fs-5">Ksh 67,700</b><br>
+                        <span class="badge bg-danger mt-1">20% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rolex Submariner Card -->
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="card h-100 shadow">
+                    <div class="card-header">
+                        <h5 class="m-0">ROLEX SUBMARINE</h5>
+                    </div>
+                    <div class="card-body d-flex align-items-center justify-content-center bg-light">
+                        <img src="images/watch2.jfif" alt="Rolex Submariner" class="img-fluid" style="height: 200px; object-fit: contain;">
+                    </div>
+                    <div class="card-footer bg-white border-0">
+                        <p class="small text-muted text-start">Lorem ipsum dolor sit amet luxury timepiece crafted for performance and high premium styling dynamics.</p>
+                        <b class="text-warning fs-5">Ksh 7,700</b><br>
+                        <span class="badge bg-danger mt-1">15% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rolex Deepsea Card -->
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="card h-100 shadow">
+                    <div class="card-header">
+                        <h5 class="m-0">ROLEX DEEPSEA</h5>
+                    </div>
+                    <div class="card-body d-flex align-items-center justify-content-center bg-light">
+                        <img src="images/watch1.jfif" alt="Rolex Deepsea" class="img-fluid" style="height: 200px; object-fit: contain;">
+                    </div>
+                    <div class="card-footer bg-white border-0">
+                        <p class="small text-muted text-start">Lorem ipsum dolor sit amet luxury timepiece crafted for performance and high premium styling dynamics.</p>
+                        <b class="text-warning fs-5">Ksh 6,300</b><br>
+                        <span class="badge bg-danger mt-1">5% off</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Structural Grid Divider -->
+        <hr class="my-5">
+
+        <!-- Section 3 Heading: TV -->
+        <h3 class="bg-warning text-dark p-2 rounded ps-3 mb-4">TV</h3>
+        
+        <!-- Section 3 Grid: Smart TVs -->
+        <section class="row g-4">
+            <!-- Samsung TV -->
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="card h-100 shadow">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title fs-6 fw-bold">Samsung 55" Crystal UHD 4K Smart TV</h5>
+                        <div class="my-3 d-flex align-items-center justify-content-center" style="height: 150px;">
+                            <img src="images/screen1.jpg" alt="Samsung TV" class="img-fluid" style="max-height: 100%; object-fit: contain;">
+                        </div>
+                        <p class="small text-muted text-start mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, earum laudantium necessitatibus voluptatibus dolorem dolorum.</p>
+                        <div>
+                            <b class="text-warning fs-5">Ksh 65,000</b><br>
+                            <span class="badge bg-danger mt-1">12% off</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LG TV -->
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="card h-100 shadow">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title fs-6 fw-bold">LG 43" Full HD Smart TV</h5>
+                        <div class="my-3 d-flex align-items-center justify-content-center" style="height: 150px;">
+                            <img src="images/screen2.jpg" alt="LG TV" class="img-fluid" style="max-height: 100%; object-fit: contain;">
+                        </div>
+                        <p class="small text-muted text-start mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, earum laudantium necessitatibus voluptatibus dolorem dolorum.</p>
+                        <div>
+                            <b class="text-warning fs-5">Ksh 38,500</b><br>
+                            <span class="badge bg-danger mt-1">10% off</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hisense TV -->
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="card h-100 shadow">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title fs-6 fw-bold">Hisense 50" 4K UHD Smart TV</h5>
+                        <div class="my-3 d-flex align-items-center justify-content-center" style="height: 150px;">
+                            <img src="images/screen3.jpg" alt="Hisense TV" class="img-fluid" style="max-height: 100%; object-fit: contain;">
+                        </div>
+                        <p class="small text-muted text-start mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, earum laudantium necessitatibus voluptatibus dolorem dolorum.</p>
+                        <div>
+                            <b class="text-warning fs-5">Ksh 49,999</b><br>
+                            <span class="badge bg-danger mt-1">18% off</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sony TV -->
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="card h-100 shadow">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title fs-6 fw-bold">Sony Bravia 65" 4K Google TV</h5>
+                        <div class="my-3 d-flex align-items-center justify-content-center" style="height: 150px;">
+                            <img src="images/screen4.jpg" alt="Sony TV" class="img-fluid" style="max-height: 100%; object-fit: contain;">
+                        </div>
+                        <p class="small text-muted text-start mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, earum laudantium necessitatibus voluptatibus dolorem dolorum.</p>
+                        <div>
+                            <b class="text-warning fs-5">Ksh 112,000</b><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+     <footer class="text-center text-white bg-dark p-2">
+            <b>Developed by Billy. &copy;. All rights reserved</b>
+        </footer>
+</body>
